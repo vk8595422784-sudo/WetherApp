@@ -1,0 +1,17 @@
+/* #card {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  background-color: #222;
+  box-shadow: #111;
+  color: aliceblue;
+
+} */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+}
