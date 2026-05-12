@@ -2,7 +2,7 @@ const WeatherCard = ({ weather }) => {
   if (!weather || !weather.main) {
     return null;
   }
-  const temp = (weather.main.temp - 273.15).toFixed(1);
+  const temp = weather.main.temp.toFixed(1);
   return (
     <div>
       <h2 className="mb-3">{weather.name}</h2>
